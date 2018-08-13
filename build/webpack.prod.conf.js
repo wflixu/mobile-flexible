@@ -125,16 +125,16 @@ const webpackConfig = merge(baseWebpackConfig, {
       routes: [ '/' ],
       // Optional minification.
       minify: {
-        collapseBooleanAttributes: true,
-        collapseWhitespace: true,
-        decodeEntities: true,
-        keepClosingSlash: true,
-        sortAttributes: true
+        collapseBooleanAttributes: false,
+        collapseWhitespace: false,
+        decodeEntities: false,
+        keepClosingSlash: false,
+        sortAttributes: false
       },
 
-      renderer: new Renderer({
-        renderAfterDocumentEvent: 'render-event'
-      })
+      // renderer: new Renderer({
+      //   renderAfterDocumentEvent: 'render-event'
+      // })
     })
   ]
 })
