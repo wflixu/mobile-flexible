@@ -15,4 +15,9 @@ new Vue({
 })
 
 //vw单位不兼容处理
-require('viewport-units-buggyfill').init();
+var hacks = require('viewport-units-buggyfill/viewport-units-buggyfill.hacks');
+require('viewport-units-buggyfill').init({
+  hacks: hacks
+});
+
+
