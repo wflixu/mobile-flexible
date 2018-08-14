@@ -1,15 +1,25 @@
 <template>
-  <div id="app">
-       <router-view></router-view>
+  <div class="home">
+    <banner />
+    <grid />
+    <block />
+    <list />
   </div>
 </template>
 
 <script>
-import Home from './pages/Home'
+import Banner from '@/components/Banner';
+import Grid from '@/components/Grid';
+import Block from '@/components/Block';
+import List from '@/components/List';
+
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
-   Home
+    Banner,
+    Grid,
+    Block,
+    List
   }
 };
 </script>

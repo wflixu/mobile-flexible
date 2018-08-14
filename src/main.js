@@ -11,5 +11,8 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>'  
 })
+
+//vw单位不兼容处理
+require('viewport-units-buggyfill').init();
