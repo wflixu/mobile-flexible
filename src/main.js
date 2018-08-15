@@ -21,4 +21,8 @@ require('viewport-units-buggyfill').init({
   hacks: hacks
 });
 
+//点击300ms延时问题，不需要的添加 class needsclick
+var attachFastClick = require('fastclick');
+attachFastClick(document.body);
+
 

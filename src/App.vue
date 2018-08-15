@@ -13,9 +13,9 @@
 
 <style>
     body {
-        background-image: url("./assets/err_bg.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
+        /*background-image: url("./assets/err_bg.png");*/
+        /*background-size: 100% 100%;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: center center;*/
     }
 </style>

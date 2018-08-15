@@ -13,7 +13,7 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    test: './src/main.js'
+    errorpage: './src/main.js'
   },
   output: {
     path: config.build.assetsRoot,
