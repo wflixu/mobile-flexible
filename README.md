@@ -3,7 +3,6 @@
 整合移动端适配和预渲染的快速脚手架
 
 
-
 ## 使用步骤
 
 ``` bash
@@ -16,11 +15,11 @@ cnpm install
 # 查看效果
 npm run dev
 
-# 构建 build for production with minification
+# 构建 生成用于生成环境的文件
 npm run build
 
 ```
-自己的页面可以写在pages中，然后在路由中配置根目录引用自己的也买你，自己的页面可以按需引入一些第三方vue生态的库。生成修改文件名，在配置 入口 entry 对象入口键值。 生成HTML 的引用地址，配置出口output 对象 path 是子路径，相对与根路径，publicPath可以设置成静态文件的服务器域名地址或 cdn地址 
+自己的页面可以写在pages中，引用自己的页面到路由中的根目录，自己的页面中可以按需引入一些第三方vue生态的库。生成文件名修改，在配置入口 entry 对象的键值即是生成文件名的第一部发。 生成HTML的引用地址，配置出口output 对象 path 是子路径，相对与根路径，publicPath可以设置成静态文件的服务器域名地址或 cdn地址 。
 
 # 移动端vw单位适配
 
